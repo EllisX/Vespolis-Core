@@ -1,1 +1,50 @@
+name: Core
+main: Vespoli\Core\Main
+version: 1.0.0
+api: 3.0.0
+author: Jes'kad Ad'aryc#3845
+commands:
+  gmc:
+    description: Changes your gamemode to Creative
+    permission: vespolicore.gmc.use
+  gms:
+    description: Changes your gamemode to Survival
+    permission: vespolicore.gms.use
+  gma:
+    description: Changes your gamemode to Adventure
+    permission: vespolicore.gma.use
+  gmspc:
+    description: Changes your gamemode to Spectator
+    permission: vespolicore.gmspc.use
+  day:
+    description: Changes the time to Day in the world your in
+    permission: vespolicore.day.use
+  night:
+    description: Changes the time to Night in the world your in
+    permission: vespolicore.night.use
+  hub:
+    description: Teleports you to the Hub
+    aliases: ["lobby","spawn"]
+  rules:
+    description: Shows the servers Rules
+
+permissions:
+  vespolicore.gmc.use:
+    description: GMC Command
+    default: OP
+  vespolicore.gms.use:
+    description: GMS Command
+    default: OP
+  vespolicore.gma.use:
+    description: GMA Command
+    default: OP
+  vespolicore.gmspc.use:
+    description: GMSPC Command
+    default: OP
+  vespolicore.day.use:
+    description: DAY Command
+    default: OP
+  vespolicore.night.use:
+    description: NIGHT Command
+    default: OP
 
