@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/EllisX/Vespolis-Core
+branches:
+- master
+projects:
+  Vespolis-Core:
+    path: ""
+...
